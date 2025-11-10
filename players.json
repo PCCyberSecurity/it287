@@ -47,19 +47,19 @@
   {
     "name": "Harold",
     "race": "Unknown",
-    "strength": "15",
-    "agility": "8",
-    "constitution": "13",
+    "strength": "13",
+    "agility": "11",
+    "constitution": "12",
     "armor": "2",
-    "current_hp": "26"
+    "current_hp": "24"
   },
   {
     "name": "Frank",
     "race": "Unknown",
-    "strength": "13",
-    "agility": "9",
-    "constitution": "10",
+    "strength": "11",
+    "agility": "8",
+    "constitution": "8",
     "armor": "2",
-    "current_hp": "20"
+    "current_hp": "16"
   }
 ]
