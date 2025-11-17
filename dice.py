@@ -1,13 +1,18 @@
 import random
 
+from config import p, e
+
 def roll_dice(sides=6, count=1):
     rolls = list()
     total = 0
+    p(f"Rolling {count} dice with {sides} sides.")
     for i in range(count):
         roll = random.randint(1, sides)
         total += roll
         rolls.append(roll)
+        p(f"Rolled {roll} - Total: {total}")
     
+    p(f"Total of rolls: {total}")
     return rolls, total
 
 def roll3d6stat():
