@@ -109,7 +109,7 @@ class PlayerCharacter:
             print(f"[!] Failed to save JSON: {e}")
 
 def LoadAllCharacters(file_path="players.json"):
-    players = list()
+    players = dict()
 
     try:
         with open(file_path, "r", encoding="utf-8") as f:
@@ -120,7 +120,8 @@ def LoadAllCharacters(file_path="players.json"):
             pc = PlayerCharacter(name)
             #pc.str = int(npc["str"])
             pc.load_from_json(name)
-            players.append(pc)
+            #players.append(pc)
+            players[name] = pc
         
         return players
     except Exception as e:

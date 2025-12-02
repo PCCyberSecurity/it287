@@ -1,0 +1,25 @@
+[
+    {
+        "title": "Entryway",
+        "description": "You see a large hallway",
+        "enemies": [
+            "Gorak",
+            "Frank"
+        ],
+        "exits": [
+            "Throneroom"
+        ]
+    },
+    {
+        "title": "Throneroom",
+        "description": "You see a throne",
+        "enemies": [],
+        "exits": []
+    },
+    {
+        "title": "Cellar",
+        "description": "It is dark here.",
+        "enemies": [],
+        "exits": []
+    }
+]
