@@ -1,0 +1,5 @@
+
+global USE_CYTHON, USE_NUMBA
+
+USE_CYTHON = True
+USE_NUMBA = False
