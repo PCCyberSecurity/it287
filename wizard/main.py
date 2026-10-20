@@ -1,6 +1,7 @@
 from rich.console import Console
 from rich.prompt import Prompt
 from rich.text import Text
+import random
 
 # Set up Rich console
 console = Console()
@@ -16,7 +17,9 @@ spell = Prompt.ask("[magenta]Which spell to cast?[/magenta]")
 
 if (spell.lower() in "expelliarmus") or (spell == "1"):
     console.print("🔮 Disarmed your enemy!")
-    enemy_hp = enemy_hp - 1
+    roll = random.randint(1, 6)
+    enemy_hp = enemy_hp - roll
+    console.print(f"🎲 Damage dealt: {roll}")
 elif(spell.lower() in "alohomora") or (spell == "2"):
     console.print("🚪 Door unlocked.")
 elif(spell.lower() in "avada kedavra") or (spell == "3"):
@@ -26,3 +29,12 @@ else:
     console.print("📜 Spell not in the library.")
 
 console.print("📜 The duel is complete!")
+
+
+import random
+
+random.seed(42)
+
+rolls = [random.randint(1, 6) for _ in range(6)]
+
+print(rolls)
