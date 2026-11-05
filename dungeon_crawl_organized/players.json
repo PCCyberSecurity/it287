@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Gorak",
+    "race": "Unknown",
+    "strength": "18",
+    "agility": "12",
+    "constitution": "16",
+    "armor": "5",
+    "current_hp": "10"
+  },
+  {
+    "name": "Elira",
+    "race": "Elf",
+    "strength": "10",
+    "agility": "18",
+    "constitution": "12",
+    "armor": "2",
+    "current_hp": "32"
+  },
+  {
+    "name": "Thorn",
+    "race": "Human",
+    "strength": "14",
+    "agility": "14",
+    "constitution": "14",
+    "armor": "3",
+    "current_hp": "38"
+  },
+  {
+    "name": "Vexa",
+    "race": "Drow",
+    "strength": "12",
+    "agility": "16",
+    "constitution": "11",
+    "armor": "4",
+    "current_hp": "25"
+  },
+  {
+    "name": "Borgak",
+    "race": "Troll",
+    "strength": "20",
+    "agility": "8",
+    "constitution": "19",
+    "armor": "6",
+    "current_hp": "50"
+  },
+  {
+    "name": "Harold",
+    "race": "Unknown",
+    "strength": "15",
+    "agility": "8",
+    "constitution": "13",
+    "armor": "2",
+    "current_hp": "26"
+  },
+  {
+    "name": "Frank",
+    "race": "Unknown",
+    "strength": "13",
+    "agility": "9",
+    "constitution": "10",
+    "armor": "2",
+    "current_hp": "20"
+  }
+]
